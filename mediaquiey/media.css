@@ -1,0 +1,1015 @@
+@media (max-width : 1280px) {
+    /* <=========================================== Topbar Coded Here ===========================================>  */
+
+    .left-section-of-topbar {
+        width: 40%;
+    }
+
+    .right-section-of-topbar {
+        width: 9%;
+    }
+
+    /* <====================================================  Herobox Styling Here =====================================================> */
+
+    #herobox .circle {
+        width: 500px;
+        height: 500px;
+        top: 60%;
+    }
+
+    #herobox img {
+        width: 400px;
+        right: 7%;
+        top: 45%;
+    }
+
+    #herobox h1 {
+        font-size: 7vw;
+        line-height: 8.5vw;
+    }
+
+    /* <====================================================  About me Styling Here =====================================================> */
+
+    #about-section .card-container .card-1 .sub-card-1 h1 {
+        line-height: 4vw;
+    }
+
+    #about-section .card-container .card-1 .sub-card-1 a {
+        top: 75%;
+    }
+
+    #about-section .card-container .card-2 .sub-card-2 h1 {
+        line-height: 4vw;
+    }
+
+    #about-section .card-container .card-2 .sub-card-2 a {
+        top: 75%;
+    }
+
+    #about-section .card-container .card-3 .sub-card-3 h1 {
+        line-height: 4vw;
+    }
+
+    #about-section .card-container .card-3 .sub-card-3 a {
+        top: 75%;
+    }
+
+    #about-section .card-container .card-4 .sub-card-4 h1 {
+        line-height: 4vw;
+    }
+
+    #about-section .card-container .card-4 .sub-card-4 a {
+        top: 75%;
+    }
+
+    /* <==========================================  Experience Styling Here =====================================> */
+    #experience-section {
+        height: 120vw;
+    }
+
+    #experience-section h1 {
+        font-size: 5vw;
+    }
+
+    .graphic-expereince p:nth-child(3) {
+        font-size: 1.2vw;
+        width: 90%;
+    }
+
+    .video-expereince p:nth-child(3) {
+        font-size: 1.2vw;
+        width: 90%;
+    }
+
+    .ui-ux-expereince p:nth-child(3) {
+        font-size: 1.2vw;
+        width: 90%;
+    }
+
+    .development-expereince p:nth-child(3) {
+        font-size: 1.2vw;
+        width: 90%;
+    }
+
+    /* <====================================================  Expert Section Styling Here ===================================> */
+
+    .row h3 {
+        position: absolute;
+        top: -5%;
+        font-size: 25px;
+    }
+
+    .progress-bar {
+        width: 100%;
+    }
+
+    .cross-line {
+        width: 50vw;
+    }
+
+    .left-circle {
+        left: 23vw;
+    }
+
+    .right-circle {
+        right: 23vw;
+    }
+
+    /* <====================================================  Testimonial Section Styling Here ===================================> */
+    #testimonial-section {
+        height: 60vw;
+    }
+
+    #testimonial-section h1 {
+        font-size: 6vw;
+    }
+
+    .comment-container {
+        overflow: hidden;
+        position: relative;
+        top: 25%;
+        height: 40vw;
+    }
+
+    .comment-container .review-1 {
+        height: 30vw;
+    }
+
+    .comment-container .review-1 p {
+        bottom: 25%;
+    }
+
+    .comment-container .review-2 {
+        height: 30vw;
+    }
+
+    .comment-container .review-2 p {
+        bottom: 25%;
+    }
+
+    .comment-container .review-3 {
+        height: 30vw;
+    }
+}
+
+@media (max-width : 1080px) {
+    /* <=========================================== Topbar Coded Here ===========================================>  */
+
+    .left-section-of-topbar {
+        width: 40%;
+    }
+
+    .left-section-of-topbar i {
+        font-size: 18px;
+    }
+
+    .left-section-of-topbar p {
+        font-size: 12px;
+    }
+
+    .right-section-of-topbar {
+        width: 9%;
+    }
+
+    .right-section-of-topbar p {
+        font-size: 12px;
+    }
+
+    /* <====================================================  Herobox Styling Here =====================================================> */
+
+    #herobox .circle {
+        width: 500px;
+        height: 500px;
+        top: 60%;
+    }
+
+    #herobox img {
+        width: 400px;
+        right: 7%;
+        top: 45%;
+    }
+
+    #herobox h1 {
+        font-size: 8vw;
+        width: 80%;
+        line-height: 10vw;
+    }
+
+    /* <====================================================  About me Styling Here =====================================================>  */
+
+    #about-section h1 {
+        font-size: 40px;
+    }
+
+    #about-section .card-container .card-1 .sub-card-1 h1 {
+        line-height: 4.5vw;
+    }
+
+    #about-section .card-container .card-1 .sub-card-1 a {
+        top: 75%;
+    }
+
+    #about-section .card-container .card-2 .sub-card-2 h1 {
+        line-height: 4.5vw;
+    }
+
+    #about-section .card-container .card-2 .sub-card-2 a {
+        top: 75%;
+    }
+
+    #about-section .card-container .card-3 .sub-card-3 h1 {
+        line-height: 4.5vw;
+    }
+
+    #about-section .card-container .card-3 .sub-card-3 a {
+        top: 75%;
+    }
+
+    #about-section .card-container .card-4 .sub-card-4 h1 {
+        line-height: 4.5vw;
+    }
+
+    #about-section .card-container .card-4 .sub-card-4 a {
+        top: 75%;
+    }
+
+    #about-section h2 {
+        font-size: 3vw;
+    }
+
+    /* <==========================================  Experience Styling Here =====================================> */
+
+    .circle-1 {
+        width: 2.2vw;
+        height: 2.2vw;
+        left: -0.6vw;
+    }
+
+    .circle-2 {
+        width: 2.2vw;
+        height: 2.2vw;
+        left: -0.6vw;
+    }
+
+    .circle-3 {
+        width: 2.2vw;
+        height: 2.2vw;
+        left: -0.6vw;
+    }
+
+    .circle-4 {
+        width: 2.2vw;
+        height: 2.2vw;
+        left: -0.6vw;
+    }
+
+    .graphic-expereince p:nth-child(1) {
+        font-size: 1.5vw;
+    }
+
+    .graphic-expereince p:nth-child(3) {
+        bottom: 15%;
+    }
+
+    .video-expereince p:nth-child(1) {
+        font-size: 1.5vw;
+    }
+
+    .video-expereince p:nth-child(3) {
+        bottom: 15%;
+    }
+
+    .ui-ux-expereince p:nth-child(1) {
+        font-size: 1.5vw;
+    }
+
+    .ui-ux-expereince p:nth-child(3) {
+        bottom: 15%;
+    }
+
+    .development-expereince p:nth-child(1) {
+        font-size: 1.5vw;
+    }
+
+    .development-expereince p:nth-child(3) {
+        bottom: 15%;
+    }
+
+    /* <====================================================  Testimonial Styling Here =====================================================> */
+
+    .comment-container .review-1 p {
+        bottom: 25%;
+        font-size: 1.5vw;
+    }
+
+    .comment-container .review-2 p {
+        bottom: 25%;
+        font-size: 1.5vw;
+    }
+
+    .comment-container .review-3 p {
+        bottom: 25%;
+        font-size: 1.5vw;
+    }
+
+}
+
+@media (max-width : 920px) {
+    /* <=========================================== Topbar Coded Here ===========================================>  */
+
+    .left-section-of-topbar {
+        width: 50%;
+    }
+
+    .right-section-of-topbar {
+        width: 11%;
+    }
+
+    /* <====================================================  Herobox Styling Here =====================================================> */
+
+    #herobox .circle {
+        width: 500px;
+        height: 500px;
+        top: 60%;
+    }
+
+    #herobox img {
+        width: 400px;
+        right: 8%;
+        top: 45%;
+    }
+
+    #herobox h1 {
+        font-size: 9vw;
+        width: 80%;
+        line-height: 12vw;
+    }
+
+    /* <====================================================  About me Styling Here =====================================================> */
+
+    #about-section h1 {
+        font-size: 35px;
+    }
+
+    /* <====================================================  Testimonial Styling Here =====================================================> */
+    .comment-container .review-1 {
+        border-radius: 10px;
+    }
+
+    .comment-container .review-1 h4 {
+        font-size: 2vw;
+    }
+
+    .comment-container .review-1 h6 {
+        font-size: 1.5vw;
+    }
+
+    .comment-container .review-1 p {
+        bottom: 18%;
+        font-size: 1.6vw;
+    }
+
+    .comment-container .review-2 {
+        border-radius: 10px;
+    }
+
+    .comment-container .review-2 h4 {
+        font-size: 2vw;
+    }
+
+    .comment-container .review-2 h6 {
+        font-size: 1.5vw;
+    }
+
+    .comment-container .review-2 p {
+        bottom: 18%;
+        font-size: 1.6vw;
+    }
+
+    .comment-container .review-3 {
+        border-radius: 10px;
+    }
+
+    .comment-container .review-3 h4 {
+        font-size: 2vw;
+    }
+
+    .comment-container .review-3 h6 {
+        font-size: 1.5vw;
+    }
+
+    .comment-container .review-3 p {
+        bottom: 25%;
+        font-size: 1.6vw;
+    }
+}
+
+@media (max-width : 768px) {
+
+    /* <=========================================== Topbar Coded Here ===========================================>  */
+    #topbar {
+        padding: 0 10px;
+    }
+
+    .left-section-of-topbar {
+        width: 80%;
+    }
+
+    .right-section-of-topbar {
+        width: 15%;
+    }
+
+    /* <=========================================== Navbar Coded Here ===========================================>  */
+    #navbar {
+        padding: 0 20px;
+    }
+
+    .navbar-logo img {
+        width: 90px;
+        margin-top: 10px;
+    }
+
+    #navbar ul {
+        display: none;
+    }
+
+    .toggle-icon {
+        display: flex;
+        align-items: center;
+        height: 170px;
+    }
+
+    .toggle-icon img {
+        position: absolute;
+        right: 8%;
+        width: 30px;
+    }
+
+    .toggle-container {
+        width: 40%;
+        z-index: 52;
+    }
+
+    /* <====================================================  Herobox Styling Here =====================================================> */
+    #herobox {
+        height: 70vw;
+        position: relative;
+        margin-top: 30px;
+        overflow: hidden;
+    }
+
+    #herobox::before {
+        width: 100%;
+        height: 100%;
+    }
+
+    #herobox .circle {
+        width: 100vw;
+        height: 100vw;
+        top: 60%;
+        right: -2%;
+    }
+
+    #herobox img {
+        width: 62vw;
+        top: 25%;
+        right: 16%;
+        z-index: 30;
+    }
+
+    #herobox h1 {
+        width: 90%;
+        text-align: center;
+        font-size: 12vw;
+        line-height: 15vw;
+        left: 5%;
+        top: 10%;
+    }
+
+    #herobox p {
+        display: none;
+    }
+
+    #herobox .icons-group {
+        display: none;
+    }
+
+    #herobox a {
+        top: 60vw;
+        left: 38vw;
+        z-index: 30;
+        background-color: #F57931;
+        color: white;
+        box-shadow: 0px 0px 10px #F57931;
+        width: 28vw;
+        height: 8vw;
+        padding-top: 0.5vw;
+        font-size: 4vw;
+    }
+
+    /* <====================================================  About me Styling Here =====================================================> */
+    #about-section {
+        height: 80vw;
+    }
+
+    #about-section h1 {
+        top: 5%;
+        font-size: 5vw;
+    }
+
+    #about-section .card-container {
+        height: 80%;
+        top: 20%;
+        display: inline-block;
+    }
+
+    #about-section .card-container .card-1 {
+        width: 48%;
+        border-radius: 5px;
+        height: 27.5vw;
+        position: absolute;
+    }
+
+    #about-section .card-container .card-1 .sub-card-1 {
+        border-radius: 5px;
+        border: 2px solid #F57931;
+    }
+
+    #about-section .card-container .card-1 .sub-card-1 h1 {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #about-section .card-container .card-2 {
+        width: 48%;
+        height: 27.5vw;
+        border-radius: 5px;
+        position: absolute;
+        right: 0%;
+    }
+
+    #about-section .card-container .card-2 .sub-card-2 {
+        border-radius: 5px;
+        border: 2px solid #F57931;
+    }
+
+    #about-section .card-container .card-2 .sub-card-2 h1 {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #about-section .card-container .card-3 {
+        width: 48%;
+        height: 27.5vw;
+        border-radius: 5px;
+        position: absolute;
+        top: 50%;
+    }
+
+    #about-section .card-container .card-3 .sub-card-3 {
+        border-radius: 5px;
+        border: 2px solid #F57931;
+    }
+
+    #about-section .card-container .card-3 .sub-card-3 h1 {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #about-section .card-container .card-4 {
+        width: 48%;
+        height: 27.5vw;
+        border-radius: 5px;
+        position: absolute;
+        top: 50%;
+        right: 0%;
+    }
+
+    #about-section .card-container .card-4 .sub-card-4 {
+        border-radius: 5px;
+        border: 2px solid #F57931;
+    }
+
+    #about-section .card-container .card-4 .sub-card-4 h1 {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #about-section h2 {
+        display: none;
+    }
+
+    /* <====================================================  Portfolio Section Styling Here ===================================> */
+    #portfolio-section {
+        height: 150vw;
+    }
+
+    #portfolio-section h1 {
+        font-size: 8vw;
+    }
+
+    #portfolio-section #fields {
+        width: 25vw;
+        height: 50vw;
+    }
+
+    #portfolio-section #fields .field-1 {
+        width: 28vw;
+        height: 8vw;
+        left: -55%;
+    }
+
+    #portfolio-section #fields .field-1 h2 {
+        font-size: 3vw;
+    }
+
+    #portfolio-section #fields .field-2 {
+        width: 28vw;
+        height: 8vw;
+        left: -55%;
+    }
+
+    #portfolio-section #fields .field-2 h2 {
+        font-size: 3vw;
+    }
+
+    #portfolio-section #fields .field-3 {
+        width: 28vw;
+        height: 8vw;
+        left: -55%;
+    }
+
+    #portfolio-section #fields .field-3 h2 {
+        font-size: 3vw;
+    }
+
+    #portfolio-section #fields .field-4 {
+        width: 28vw;
+        height: 8vw;
+        left: -55%;
+    }
+
+    #portfolio-section #fields .field-4 h2 {
+        font-size: 3vw;
+    }
+
+    .circle-group {
+        width: 25vw;
+        height: 50vw;
+    }
+
+    .circle-group .circle-1 {
+        width: 1.5vw;
+        height: 1.5vw;
+        left: -0.8vw;
+    }
+
+    .circle-group .circle-2 {
+        width: 1.5vw;
+        height: 1.5vw;
+        top: 13vw;
+        left: -0.9vw;
+    }
+
+    .circle-group .circle-3 {
+        width: 1.5vw;
+        height: 1.5vw;
+        left: -0.9vw;
+    }
+
+    .circle-group .circle-4 {
+        width: 1.5vw;
+        height: 1.5vw;
+        left: -0.9vw;
+        top: 23.5vw;
+    }
+
+    .circle-group .circle-5 {
+        width: 1.5vw;
+        height: 1.5vw;
+        left: -0.9vw;
+    }
+
+    .circle-group .circle-6 {
+        width: 1.5vw;
+        height: 1.5vw;
+        left: -0.9vw;
+        top: 34vw;
+    }
+
+    .circle-group .circle-7 {
+        width: 1.5vw;
+        height: 1.5vw;
+        left: -0.9vw;
+    }
+
+    .circle-group .circle-8 {
+        width: 1.5vw;
+        height: 1.5vw;
+        left: -0.9vw;
+        top: 45vw;
+    }
+
+    .showing-button {
+        width: 45vw;
+        height: 10vw;
+        top: 42%;
+    }
+
+    .showing-button h2 {
+        font-size: 5vw;
+    }
+
+    .gallery {
+        height: 40%;
+    }
+
+    #portfolio-section a {
+        width: 20vw;
+        height: 6vw;
+        font-size: 3vw;
+        padding-top: 0.5vw;
+    }
+/* <====================================================  Expert-section Styling Here =====================================================> */
+
+    #expert-section h1{
+        font-size: 9vw;
+    }
+
+    /* <====================================================  Testimonial Styling Here =====================================================> */
+
+    #testimonial-section h1{
+        -webkit-text-stroke: .2px white;
+    }
+    .comment-container{
+        width: 95%;
+    }
+
+    .comment-container .review-1 p {
+        bottom: 25%;
+        font-size: 1.6vw;
+    }
+
+    .comment-container .review-2 p {
+        bottom: 25%;
+        font-size: 1.6vw;
+    }
+
+    .comment-container .review-3 p {
+        bottom: 25%;
+        font-size: 1.6vw;
+    }
+}
+
+@media (max-width : 480px) {
+
+    /* <=========================================== Topbar Coded Here ===========================================>  */
+    .left-section-of-topbar {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-section-of-topbar {
+        display: none;
+    }
+
+    /* <=========================================== Navbar Coded Here ===========================================>  */
+    .navbar-logo img {
+        width: 90px;
+        margin-top: 12px;
+    }
+
+    #navbar ul {
+        display: none;
+    }
+
+    .toggle-icon {
+        display: flex;
+        align-items: center;
+        height: 180px;
+    }
+
+    .toggle-icon img {
+        position: absolute;
+        right: 8%;
+        width: 30px;
+    }
+
+    .toggle-container {
+        width: 45%;
+    }
+
+    /* <====================================================  Herobox Styling Here =====================================================> */
+    #herobox {
+        height: 70vw;
+        position: relative;
+        margin-top: 30px;
+        overflow: hidden;
+    }
+
+    #herobox::before {
+        width: 100%;
+        height: 100%;
+    }
+
+    #herobox .circle {
+        width: 100vw;
+        height: 100vw;
+        top: 60%;
+        right: -2%;
+    }
+
+    #herobox img {
+        width: 62vw;
+        top: 25%;
+        right: 16%;
+        z-index: 50;
+    }
+
+    #herobox h1 {
+        width: 90%;
+        text-align: center;
+        font-size: 14vw;
+        line-height: 15vw;
+        left: 5%;
+        top: 10%;
+    }
+
+    #herobox p {
+        display: none;
+    }
+
+    #herobox .icons-group {
+        display: none;
+    }
+
+    #herobox a {
+        top: 59vw;
+        left: 40%;
+        width: 28vw;
+        height: 8vw;
+        padding-top: 0.5vw;
+        font-size: 4vw;
+    }
+
+    /* <====================================================  About me Styling Here =====================================================> */
+    #about-section {
+        height: 180vw;
+    }
+
+    #about-section h1 {
+        top: 5%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 10vw;
+        width: 95%;
+        text-align: center;
+        border-bottom: 1px solid white;
+    }
+
+    #about-section .card-container {
+        height: 80%;
+        top: 20%;
+        display: inline-block;
+    }
+
+    #about-section .card-container .card-1 {
+        width: 100%;
+        border-radius: 5px;
+        height: 27.5vw;
+        position: absolute;
+    }
+
+    #about-section .card-container .card-1 .sub-card-1 {
+        border-radius: 5px;
+        border: 1px solid #F57931;
+        width: 98%;
+    }
+
+    #about-section .card-container .card-1 .sub-card-1 p {
+        font-size: 3.5vw;
+        top: 10%;
+    }
+
+    #about-section .card-container .card-1 .sub-card-1 h1 {
+        left: 50%;
+        transform: translate(-50%);
+        font-size: 8vw;
+        width: 100%;
+        top: 43%;
+    }
+
+    #about-section .card-container .card-1 .sub-card-1 a {
+        width: 20vw;
+        height: 4vw;
+        font-size: 1.7vw;
+    }
+
+    #about-section .card-container .card-2 {
+        width: 100%;
+        height: 27.5vw;
+        border-radius: 5px;
+        position: absolute;
+        right: 0%;
+        top: 25%;
+    }
+
+    #about-section .card-container .card-2 .sub-card-2 {
+        border-radius: 5px;
+        border: 1px solid #F57931;
+        width: 98%;
+    }
+
+    #about-section .card-container .card-2 .sub-card-2 p {
+        font-size: 3.5vw;
+        top: 10%;
+    }
+
+    #about-section .card-container .card-2 .sub-card-2 h1 {
+        left: 50%;
+        transform: translate(-50%);
+        font-size: 8vw;
+        width: 100%;
+        top: 43%;
+    }
+
+    #about-section .card-container .card-2 .sub-card-2 a {
+        width: 20vw;
+        height: 4vw;
+        font-size: 1.7vw;
+    }
+
+    #about-section .card-container .card-3 {
+        width: 100%;
+        height: 27.5vw;
+        border-radius: 5px;
+        position: absolute;
+        top: 50%;
+    }
+
+    #about-section .card-container .card-3 .sub-card-3 {
+        border-radius: 5px;
+        border: 1px solid #F57931;
+        width: 98%;
+    }
+
+    #about-section .card-container .card-3 .sub-card-3 p {
+        font-size: 3.5vw;
+        top: 10%;
+    }
+
+    #about-section .card-container .card-3 .sub-card-3 h1 {
+        left: 50%;
+        transform: translate(-50%);
+        font-size: 8vw;
+        width: 100%;
+        top: 43%;
+    }
+
+    #about-section .card-container .card-3 .sub-card-3 a {
+        width: 20vw;
+        height: 4vw;
+        font-size: 1.7vw;
+    }
+
+    #about-section .card-container .card-4 {
+        width: 100%;
+        height: 27.5vw;
+        border-radius: 5px;
+        position: absolute;
+        top: 75%;
+        right: 0%;
+    }
+
+    #about-section .card-container .card-4 .sub-card-4 {
+        border-radius: 5px;
+        border: 1px solid #F57931;
+        width: 98%;
+    }
+
+    #about-section .card-container .card-4 .sub-card-4 p {
+        font-size: 3.5vw;
+        top: 10%;
+    }
+
+    #about-section .card-container .card-4 .sub-card-4 h1 {
+        left: 50%;
+        transform: translate(-50%);
+        font-size: 8vw;
+        width: 100%;
+        top: 43%;
+    }
+
+    #about-section .card-container .card-4 .sub-card-4 a {
+        width: 20vw;
+        height: 4vw;
+        font-size: 1.7vw;
+    }
+
+    #about-section h2 {
+        display: none;
+    }
+
+}
