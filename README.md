@@ -4,7 +4,7 @@ A simple portfolio site used to demonstrate a full CI/CD pipeline. Every time I 
 
 ### 🔗 Quick Links
 * **Live Site:** [View on Render](https://my-devops-portfolio-byu7.onrender.com)
-* **Build Status:** ![Build Status](https://github.com/YOUR_GITHUB_USERNAME/my-devops-portfolio/actions/workflows/docker-build.yml/badge.svg)
+* **Build Status:** ![Build Status](https://github.com/DENJOSHY/my-devops-portfolio/actions/workflows/docker-build.yml/badge.svg)
 
 ---
 
