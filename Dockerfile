@@ -1,4 +1,4 @@
-FROM nginx:this-is-fake-version
+FROM nginx:alpine
 
 
 COPY . /usr/share/nginx/html
