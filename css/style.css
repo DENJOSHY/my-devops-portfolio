@@ -1576,32 +1576,50 @@ body{
     right: 0%;
     z-index: 2;
 }
+
+/* Nutanix Ops - 95% */
 .complete-bar{
     width: 95%;
     background-color: #00aaff;
     height: 100%;
 }
+
+/* Azure Cloud - 90% */
 .container .row:nth-child(2) .complete-bar{
-    width: 92%;
-}
-.container .row:nth-child(3) .complete-bar{
     width: 90%;
 }
+
+/* Docker - 60% */
+.container .row:nth-child(3) .complete-bar{
+    width: 60%;
+}
+
+/* Terraform - 60% */
 .container .row:nth-child(4) .complete-bar{
-    width: 85%;
+    width: 60%;
 }
+
+/* CI/CD - 65% */
 .container .row:nth-child(5) .complete-bar{
-    width: 94%;
+    width: 65%;
 }
+
+/* Linux/Server - 90% */
 .container .row:nth-child(6) .complete-bar{
     width: 90%;
 }
+
+/* Python/Dev - 80% */
 .container .row:nth-child(7) .complete-bar{
     width: 80%;
 }
+
+/* L2/L3 Support - 90% */
 .container .row:nth-child(8) .complete-bar{
     width: 90%;
 }
+
+/* Automation - 85% */
 .container .row:nth-child(9) .complete-bar{
     width: 85%;
 }
