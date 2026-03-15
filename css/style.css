@@ -353,36 +353,50 @@ body {
     align-items: center;
     justify-content: space-between;
 }
-
-#herobox .icons-group i {
-    color: #00aaff;
+/* 1. Ensure the container itself is positioned correctly */
+#herobox .icons-group {
+    width: auto;
+    height: 50px;
+    position: absolute;
+    bottom: 3%;
+    left: 3%;
+    display: flex;
+    align-items: center;
+    gap: 15px; /* This creates the space between the icons */
+    z-index: 20;
 }
 
-#herobox .icons-group .icon-1,
-#herobox .icons-group .icon-2,
-#herobox .icons-group .icon-3 {
-    width: 35px;
-    height: 35px;
+/* 2. Reset the 'absolute' positioning coming from the general #herobox a rule */
+#herobox .icons-group a {
+    position: static !important; /* Forces icons to follow the flex layout instead of stacking */
+    display: flex;
+    width: 40px; 
+    height: 40px;
     border: 2px solid white;
     border-radius: 50%;
-    display: flex;
     align-items: center;
     justify-content: center;
     transition: .3s ease;
-    cursor: pointer;
+    text-decoration: none;
+    padding: 0; /* Reset any padding from the 'Hire Me' button style */
 }
 
-#herobox .icons-group .icon-1:hover,
-#herobox .icons-group .icon-2:hover,
-#herobox .icons-group .icon-3:hover {
-    background-color: #00aaff;
-    border: 2px solid #00aaff;
+/* 3. Icon Colors */
+#herobox .icons-group i {
+    color: #00aaff;
+    font-size: 18px;
+    transition: .3s ease;
 }
 
-#herobox .icons-group .icon-1:hover i,
-#herobox .icons-group .icon-2:hover i,
-#herobox .icons-group .icon-3:hover i {
-    color: white;
+/* 4. Hover Effects */
+#herobox .icons-group a:hover {
+    background-color: #00aaff !important;
+    border: 2px solid #00aaff !important;
+    transform: translateY(-3px); /* Optional: slight lift on hover */
+}
+
+#herobox .icons-group a:hover i {
+    color: white !important;
 }
 #about-section {
     width: 100%;
