@@ -8,6 +8,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: oswald, sans-serif;
+    -webkit-tap-highlight-color: transparent;
 }
 
 *::selection {
@@ -239,6 +240,37 @@ body {
     overflow: hidden;
     position: relative;
 }
+#herobox a {
+    display: inline-block;
+    width: 160px;
+    height: 55px;
+    position: absolute;
+    top: 75%;
+    left: 5%;
+    text-decoration: none !important;
+    
+    /* FIX: Prevents orange or white background on mobile load */
+    background-color: transparent !important; 
+    /* FIX: Prevents text from turning orange or purple (visited) */
+    color: #00aaff !important; 
+    
+    border: 2px solid white;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 10px;
+    transition: .3s ease;
+    z-index: 10;
+}
+
+/* Ensure it ONLY turns blue when you actually interact with it */
+#herobox a:hover {
+    background-color: #00aaff !important;
+    color: white !important;
+    border-color: #00aaff !important;
+}
+
 
 #herobox::before {
     content: "";
