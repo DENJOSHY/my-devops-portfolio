@@ -263,6 +263,101 @@ body {
     transition: .3s ease;
     z-index: 10;
 }
+/* <================ Portfolio Section Styling =================> */
+
+#portfolio-section {
+    width: 100%;
+    height: 100vh;
+    background-image: url('/Images/background\ image.jpg');
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+#portfolio-section::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #1b1b1bf6;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#portfolio-section h1 {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    color: transparent;
+    -webkit-text-stroke: .75px white;
+    font-size: 5vw;
+    font-weight: 500;
+    z-index: 2;
+    border-bottom: 2px solid #00aaff;
+}
+
+#portfolio-section h1 span {
+    color: #00aaff;
+    -webkit-text-stroke: 0px;
+}
+
+/* The Main Container Box (The Vertical Line) */
+#portfolio-section #fields {
+    width: 220px;
+    height: 500px;
+    border: 2px solid white;
+    border-right: none; /* This creates your vertical "spine" on the right */
+    position: absolute;
+    right: 0%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+/* Individual Skill Boxes */
+[class^="field-"] {
+    width: 260px;
+    height: 65px;
+    border: 2px solid white;
+    border-radius: 50px;
+    position: absolute;
+    /* Centers the box exactly on the line */
+    left: -130px; 
+    background-color: #1B1B1B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    cursor: pointer;
+    z-index: 5;
+}
+
+/* Spacing the boxes along the line */
+.field-1 { top: 10%; }
+.field-2 { top: 35%; }
+.field-3 { top: 60%; }
+.field-4 { top: 85%; }
+
+/* Hover Effect: The box "pops" and changes border color */
+[class^="field-"]:hover {
+    background-color: #1B1B1B;
+    border-color: #00aaff;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 170, 255, 0.4);
+}
+
+[class^="field-"] h2 {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: .3s ease;
+}
+
+[class^="field-"]:hover h2 {
+    color: #00aaff;
+}
 
 /* Ensure it ONLY turns blue when you actually interact with it */
 #herobox a:hover {
