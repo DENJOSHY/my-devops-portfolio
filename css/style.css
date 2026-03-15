@@ -240,6 +240,7 @@ body {
     overflow: hidden;
     position: relative;
 }
+
 #herobox a {
     display: inline-block;
     width: 160px;
@@ -248,12 +249,8 @@ body {
     top: 75%;
     left: 5%;
     text-decoration: none !important;
-    
-    /* FIX: Prevents orange or white background on mobile load */
     background-color: transparent !important; 
-    /* FIX: Prevents text from turning orange or purple (visited) */
     color: #00aaff !important; 
-    
     border: 2px solid white;
     text-align: center;
     border-radius: 10px;
@@ -263,7 +260,6 @@ body {
     transition: .3s ease;
     z-index: 10;
 }
-/* <================ Portfolio Section Styling =================> */
 
 #portfolio-section {
     width: 100%;
@@ -301,12 +297,11 @@ body {
     -webkit-text-stroke: 0px;
 }
 
-/* The Main Container Box (The Vertical Line) */
 #portfolio-section #fields {
     width: 220px;
     height: 500px;
     border: 2px solid white;
-    border-right: none; /* This creates your vertical "spine" on the right */
+    border-right: none;
     position: absolute;
     right: 0%;
     top: 50%;
@@ -314,14 +309,12 @@ body {
     z-index: 2;
 }
 
-/* Individual Skill Boxes */
 [class^="field-"] {
     width: 260px;
     height: 65px;
     border: 2px solid white;
     border-radius: 50px;
     position: absolute;
-    /* Centers the box exactly on the line */
     left: -130px; 
     background-color: #1B1B1B;
     display: flex;
@@ -332,13 +325,11 @@ body {
     z-index: 5;
 }
 
-/* Spacing the boxes along the line */
 .field-1 { top: 10%; }
 .field-2 { top: 35%; }
 .field-3 { top: 60%; }
 .field-4 { top: 85%; }
 
-/* Hover Effect: The box "pops" and changes border color */
 [class^="field-"]:hover {
     background-color: #1B1B1B;
     border-color: #00aaff;
@@ -359,13 +350,11 @@ body {
     color: #00aaff;
 }
 
-/* Ensure it ONLY turns blue when you actually interact with it */
 #herobox a:hover {
     background-color: #00aaff !important;
     color: white !important;
     border-color: #00aaff !important;
 }
-
 
 #herobox::before {
     content: "";
@@ -413,42 +402,6 @@ body {
     letter-spacing: 2px;
 }
 
-#herobox a {
-    display: inline-block;
-    width: 150px;
-    height: 50px;
-    position: absolute;
-    top: 76%;
-    left: 3%;
-    text-decoration: none;
-    color: #00aaff;
-    border: 2px solid white;
-    text-align: center;
-    border-radius: 10px;
-    font-size: 22px;
-    font-weight: 600;
-    padding-top: 5px;
-    transition: .3s ease;
-    letter-spacing: 2px;
-}
-
-#herobox a:hover {
-    background-color: #00aaff;
-    color: white;
-    border: 2px solid #00aaff;
-}
-
-#herobox .icons-group {
-    width: 150px;
-    height: 50px;
-    position: absolute;
-    bottom: 3%;
-    left: 3%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-/* 1. Ensure the container itself is positioned correctly */
 #herobox .icons-group {
     width: auto;
     height: 50px;
@@ -457,13 +410,12 @@ body {
     left: 3%;
     display: flex;
     align-items: center;
-    gap: 15px; /* This creates the space between the icons */
+    gap: 15px; 
     z-index: 20;
 }
 
-/* 2. Reset the 'absolute' positioning coming from the general #herobox a rule */
 #herobox .icons-group a {
-    position: static !important; /* Forces icons to follow the flex layout instead of stacking */
+    position: static !important;
     display: flex;
     width: 40px; 
     height: 40px;
@@ -473,33 +425,32 @@ body {
     justify-content: center;
     transition: .3s ease;
     text-decoration: none;
-    padding: 0; /* Reset any padding from the 'Hire Me' button style */
+    padding: 0;
 }
 
-/* 3. Icon Colors */
 #herobox .icons-group i {
     color: #00aaff;
     font-size: 18px;
     transition: .3s ease;
 }
 
-/* 4. Hover Effects */
 #herobox .icons-group a:hover {
     background-color: #00aaff !important;
     border: 2px solid #00aaff !important;
-    transform: translateY(-3px); /* Optional: slight lift on hover */
+    transform: translateY(-3px);
 }
 
 #herobox .icons-group a:hover i {
     color: white !important;
 }
+
 #about-section {
     width: 100%;
-    min-height: 25vw; /* Changed from fixed height to min-height for text flow */
+    min-height: 25vw;
     background-color: #1B1B1B;
     position: relative;
     overflow: hidden;
-    padding-bottom: 50px; /* Space at the bottom */
+    padding-bottom: 50px;
 }
 
 #about-section h1 {
@@ -513,10 +464,9 @@ body {
     margin: 0;
 }
 
-/* New Styles for the Para */
 .about-container {
-    margin-top: 10vw; /* Pushes text below the absolute positioned H1 */
-    padding: 0 5% 0 3%; /* Aligns with the H1 left margin */
+    margin-top: 10vw;
+    padding: 0 5% 0 3%;
     max-width: 850px;
 }
 
@@ -530,11 +480,10 @@ body {
 }
 
 .highlight {
-    color: #00aaff; /* Matches your H1 blue */
+    color: #00aaff;
     font-weight: 600;
 }
 
-/* Responsive fix for mobile */
 @media (max-width: 768px) {
     #about-section h1 {
         font-size: 32px;
@@ -550,9 +499,10 @@ body {
     background-color: #1B1B1B;
     position: relative;
 }
+
 #contact-details-section {
     width: 100%;
-    background-color: #1B1B1B; /* Matches your About section */
+    background-color: #1B1B1B;
     padding: 80px 0;
     text-align: center;
     position: relative;
@@ -612,7 +562,6 @@ body {
     color: white;
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
     #contact-details-section h1 {
         font-size: 32px;
@@ -622,6 +571,7 @@ body {
         padding: 0 20px;
     }
 }
+
 #experience-section h1 {
     color: white;
     font-size: 72px;
